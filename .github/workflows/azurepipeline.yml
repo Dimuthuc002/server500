@@ -23,4 +23,4 @@ uses: Azure/pipelines@v1
 with:
 azure-devops-project-url: https://dev.azure.com/XLab-5d7-058/project100
 azure-pipeline-name: 'project100-CI'
-azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
+azure-devops-token: ${{ secrets.azure_devops_token }}
